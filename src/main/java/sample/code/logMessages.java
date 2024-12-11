@@ -5,6 +5,7 @@ public class LogMessages {
         System.out.println(">>>> running: "+o.getClass().getEnclosingMethod().getName());
     }
 
+
     public void logMethod (Object o, String s){
         System.out.println(">>>> running: "+o.getClass().getEnclosingMethod().getName()+" -- "+s);
         System.out.println(">>>> running: "+o.getClass().getEnclosingMethod().getName()+" -- "+s);
@@ -12,6 +13,7 @@ public class LogMessages {
         sample com.sun.jmx.defaults
         ramkumar
         jaikumar
+        praveen
 
 
     }
